@@ -17,4 +17,4 @@ def roman_to_int(roman_string):
             else:
                 num_list.append(rm[char])
             last_rom = rm[char]
-    return num + to_subtract(num_list) 
+    return num + to_subtract(num_list)
